@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Return of the Krist</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=MedievalSharp">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div class="content">
+
+    <!-- Epic title -->
+    <div class="title">
+      <h1>Return of the Krist</h1>
+    </div>
+
+    <!-- Epic banner -->
+    <div class="ambilight">
+      <img alt="banner" class="image" src="./kdawgs-deep.jpg">
+      <img alt="ambilight" class="light" src="./kdawgs-deep.jpg" >
+    </div>
+
+      <!-- Epic background music -->
+      <audio controls autoplay id="epic-music" >
+        <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <script>
+        var audio = document.getElementById("epic-music");
+        audio.volume = 0.2;
+        audio.currentTime = 77;
+      </script>
+
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+  </div>
+</body>
+</html>
