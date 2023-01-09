@@ -71,7 +71,7 @@ body {
   font-size: 5.5rem;
 }
 
-@media (max-width: 900) {
+@media (max-width: 1350px) {
 
   .title {
     width: 100%;
